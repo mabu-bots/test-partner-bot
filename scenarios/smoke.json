@@ -1,0 +1,1 @@
+{"channelId":"YOUR_TEST_CHANNEL_ID","name":"smoke: 投稿とリアクションの基本確認","steps":[{"action":"send","content":"テスト開始します","saveAs":"first"},{"action":"react","emoji":"👍","to":"first"},{"action":"wait","ms":1000},{"action":"edit","content":"テスト開始します（編集済み）","target":"first"}]}

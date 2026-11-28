@@ -1,0 +1,1 @@
+{"channelId":"YOUR_TEST_CHANNEL_ID","name":"chat-topic-bot: /topic への応答確認サンプル","steps":[{"action":"send","content":"/topic"},{"action":"expectMessage","contains":"お題","fromUserId":"TARGET_BOT_USER_ID","saveAs":"topicMsg","timeoutMs":10000},{"action":"react","emoji":"⭐","to":"topicMsg"}]}
